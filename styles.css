@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todolist {
+    background-color: rgb(176, 244, 221);
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 2px;
+    color:rgb(30, 109, 97);
+    text-decoration: underline white;
+    font-size: 40px;
+}
+
+
+button {
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(30, 109, 97);
+    transition-duration: 0.4s;
+    float: left;
+    margin-left: 50px;
+    font-weight: 700;
+    border: solid 2px white;
+
+
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(30, 109, 97);
+    color: white;
+    border: solid 2px rgb(30, 109, 97);
+    
+}
+
+li {
+    color:  rgb(30, 109, 97);
+    margin-left: 50px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+#taskInput  {
+    border: solid 2px white;
+    margin-top: 5px;
+    
+}
